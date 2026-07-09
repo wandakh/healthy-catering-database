@@ -1,34 +1,48 @@
 # Healthy Catering Database
 
-Database design project for a healthy catering management system using MySQL.
+Database design project implementing ERD, Stored Procedure, Trigger, and SQL Transaction using MySQL.
 
 ---
 
 ## Overview
-Healthy Catering Database merupakan perancangan basis data untuk sistem layanan catering sehat yang mendukung pengelolaan pelanggan, menu, target gizi, pemesanan, pengiriman, dan stok bahan secara terintegrasi. Sistem dirancang menggunakan pendekatan relasional dengan penerapan Entity Relationship Diagram (ERD), normalisasi basis data, Stored Procedure, Trigger, dan SQL Transaction untuk menjaga konsistensi data serta mendukung otomatisasi proses bisnis.
+
+Healthy Catering Database merupakan perancangan basis data untuk sistem layanan catering sehat yang mendukung pengelolaan pelanggan, menu, target gizi, pemesanan, pengiriman, dan stok bahan secara terintegrasi. Sistem dirancang menggunakan pendekatan relasional dengan implementasi Entity Relationship Diagram (ERD), Database Normalization, Stored Procedure, Trigger, dan SQL Transaction untuk menjaga konsistensi data serta mengotomatisasi proses bisnis.
 
 ---
 
 ## Tech Stack
+
 - MySQL
 - DBeaver
 - Laragon
 - phpMyAdmin
-  
+
+---
+
+## Database Scope
+
+- Customer Management
+- Nutrition Target Management
+- Menu Management
+- Order Management
+- Delivery Management
+- Inventory Management
+
 ---
 
 ## Key Features
+
 - Entity Relationship Diagram (ERD)
 - Relational Schema Design
 - Database Normalization
-- Stored Procedure
-- Trigger
+- Stored Procedure Implementation
+- Trigger Implementation
 - SQL Transaction Management
-- Business Rules Implementation
+- Business Rules Enforcement
 
 ---
 
-## Project Responsibilities
+## My Contributions
 
 Pada project ini saya berkontribusi dalam:
 
@@ -43,7 +57,7 @@ Pada project ini saya berkontribusi dalam:
 ## Entity Relationship Diagram (ERD)
 
 <p align="center">
-  <img src="assets/erd.png" width="900">
+    <img src="assets/erd.png" width="900">
 </p>
 
 ---
@@ -51,7 +65,7 @@ Pada project ini saya berkontribusi dalam:
 ## Relational Schema
 
 <p align="center">
-  <img src="assets/relational_schema.png" width="900">
+    <img src="assets/relational_schema.png" width="900">
 </p>
 
 ---
@@ -59,13 +73,13 @@ Pada project ini saya berkontribusi dalam:
 ## Repository Structure
 
 ```text
-healthy-catering-database
+healthy-catering-database/
 │
 ├── README.md
-├── sql
+├── sql/
 │   └── healthy_catering_database.sql
 │
-└── assets
+└── assets/
     ├── erd.png
     └── relational_schema.png
 ```
